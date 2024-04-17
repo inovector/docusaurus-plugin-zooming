@@ -1,0 +1,55 @@
+{
+    "name": "docusaurus-plugin-zooming",
+    "version": "1.0.0",
+    "private": false,
+    "description": "This plugin uses the [`Zooming`](https://www.npmjs.com/package/zooming) library to allow for zoom in/out on images in your documentation.",
+    "homepage": "https://github.com/inovector/docusaurus-plugin-zooming#readme",
+    "bugs": {
+        "url": "https://github.com/inovector/docusaurus-plugin-zooming/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inovector/docusaurus-plugin-zooming.git"
+    },
+    "keywords": [
+        "docusaurus",
+        "docusaurus-plugin",
+        "zoom",
+        "image",
+        "zooming",
+        "zoomable",
+        "zoomable image",
+        "zoomable images",
+        "zoomable image plugin",
+        "zoomable images plugin",
+        "zoomable image docusaurus",
+        "zoomable images docusaurus",
+        "zoomable image docusaurus plugin",
+        "zoomable images docusaurus plugin",
+        "docusaurus zoomable image",
+        "docusaurus zoomable images",
+        "docusaurus zoomable image plugin",
+        "docusaurus zoomable images plugin"
+    ],
+    "license": "MIT",
+    "author": "Dima Botezatu <dima@inovector.com>",
+    "main": "src/index.js",
+    "scripts": {},
+    "dependencies": {
+        "validate-peer-dependencies": "^2.2.0",
+        "zooming": "^2.1.1"
+    },
+    "devDependencies": {
+        "@docusaurus/module-type-aliases": "^3.0.0",
+        "@docusaurus/theme-classic": "^3.0.0"
+    },
+    "peerDependencies": {
+        "@docusaurus/theme-classic": ">=3.0.0"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org"
+    },
+    "volta": {
+        "node": "18.18.2"
+    }
+}
